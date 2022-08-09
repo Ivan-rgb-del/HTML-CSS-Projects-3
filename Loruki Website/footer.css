@@ -1,0 +1,35 @@
+.footer{
+    background: var(--primary);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.footer p{
+    color: white;
+    padding-top: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer li{
+    padding: 6px 0;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer i{
+    font-size: 30px;
+    color: white;
+    padding: 0 10px;
+}

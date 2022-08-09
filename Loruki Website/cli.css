@@ -1,0 +1,30 @@
+.cli{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cli .grid-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli img{
+    width: 550px;
+    height: 200px;
+}
+
+.cli .grid-2 > *:first-child{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.cli .card{
+    width: 100%;
+}
+
+.cli .card h3{
+    font-size: 15px;
+}

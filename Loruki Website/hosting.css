@@ -1,0 +1,36 @@
+.hosting{
+    background: var(--primary);
+    padding: 20px 0;
+}
+
+.hosting-img{
+    justify-self: flex-end;
+}
+
+.hosting-box{
+    text-align: center;
+}
+
+.hosting-box h1{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.hosting-box p{
+    color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.hosting-box .btn-host{
+    display: inline-block;
+    background: darkblue;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: var(--secondary);
+    text-align: center;
+    text-decoration: none;
+}
+
+.hosting-box .btn-host:hover{
+    transform: scale(0.98);
+}

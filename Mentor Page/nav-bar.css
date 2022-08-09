@@ -1,0 +1,39 @@
+header{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.main-nav h2{
+    font-size: 2rem;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li{
+    padding: 0 20px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main-nav .active{
+    background: rgb(255, 89, 0);
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: white;
+}

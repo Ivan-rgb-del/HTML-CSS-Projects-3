@@ -1,0 +1,55 @@
+.contact{
+    background: #f2f2f2;
+    position: relative;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.container-contact{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-box{
+    width: 380px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-box input{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+    border: 1px solid #999;
+}
+
+.contact-box textarea{
+    border:  1px solid #999;
+}
+
+.contact-box ::placeholder{
+    color: black;
+    padding-left: 5px;
+}
+
+.contact-box .btn-2{
+    display: inline-block;
+    padding: 7px 30px;
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+}

@@ -1,0 +1,99 @@
+/*.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container h2{
+    text-align: center;
+    color: #333;
+    font-size: 3rem;
+    padding-bottom: 50px;
+}*/
+
+.about-us{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-us h2{
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.about-us-img{
+    flex-basis: 50%;
+    margin: 40px;
+}
+
+.about-us-img img{
+    width: 100%;
+}
+
+.about-us-contect{
+    flex-basis: 50%;
+    margin: 40px;
+}
+
+.about-us-contect h1{
+    color: #333;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-us-contect p{
+    color: #444;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.about-ul{
+    list-style: none;
+}
+
+.about-ul span{
+    padding-right: 20px;
+}
+
+.about-ul li{
+    color: #444;
+}
+
+.about-ul i{
+    color: rgb(255, 89, 0);
+}
+
+.about-us-contect i{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.about-us-contect a i{
+    color: rgb(255, 89, 0);
+    border: 2px solid #999;
+    padding: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-us-contect a i:hover{
+    color: white;
+    background: rgb(255, 89, 0);
+    border: 2px solid rgb(255, 89, 0);
+}

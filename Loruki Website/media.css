@@ -1,0 +1,51 @@
+/* Tablets and under */
+@media(max-width: 768px){
+    .grid-1, .grid-3, .grid-7{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .grid-2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase{
+        height: auto;
+    }
+
+    .showcase-text{
+        text-align: center;
+        margin-top: 40px auto;
+    }
+
+    .showcase-form{
+        justify-self: center;
+        margin: auto;
+    }
+
+    .stats .header{
+        width: auto;
+    }
+
+    .footer{
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media(max-width: 500px){
+    .navbar{
+        height: 110px;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        margin-top: 20px;
+        padding: 10px 0;
+        background: rgba(0,0,0,0.1);
+    }
+}
